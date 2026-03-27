@@ -1,6 +1,10 @@
-body {
-   background-color:#E2fadb;
-    color: #2b332e;
+
+
+/* Code begins here with basic background h1 and Paragraph parameters  */
+
+body {background-color: #9bc4cb;
+
+
 
  }
     h1
@@ -23,7 +27,7 @@ p{
     text-align: center;
 
 }
-
+/* Here i added my first image and started to assing style to my first class some more style  */
 .border img{
    float: left ;
 width: 300px;
@@ -31,6 +35,7 @@ margin-right: 25px;
    margin-bottom: 10px;
    max-width: 300px;
    height: auto;
+   background-color: #e2fadb;
 }
 .border {
     border: 20px solid rgb(63, 60, 60);
@@ -39,6 +44,7 @@ margin-right: 25px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     padding-bottom: 100px;
     margin-bottom: 50px;
+    background-color: #e2fadb;
 }
 
 h2 {
@@ -48,15 +54,20 @@ h2 {
     text-align: left;
     padding-bottom: 30px;
 }
-
+/* style for elements in my Border 2 class */
 .border2 {
     border: 20px solid rgb(63, 60, 60);
     padding: 30px;
     margin: 10px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     padding-bottom: 100px;
+    background-color: #e2fadb;
 }
+.border2 h1{
+    font-size: 50pt;
 
+}
+/* style for elements in my project1 class */
 .project1 img{
 
 width: 300px;
@@ -81,8 +92,9 @@ padding-bottom: 70px;
     gap: 25px;
     align-items: flex-start;}
 
+/* style for my elements in my project2 class */
 
-    .project2 img{
+.project2 img{
 
 width: 300px;
    max-height: 250px;
@@ -105,6 +117,7 @@ object-fit: cover;
 
 
 
+
 }
 .project2{
     display: flex;
@@ -118,19 +131,25 @@ object-fit: cover;
     font-size: 30pt;
     color:black;
     text-align: left;
-    padding-bottom: 60px;
-    margin-top:  0;
     padding-bottom: 100px;
+    margin-top:  0;
+
 
     position: absolute;
 }
+
+/* style for my elements in my project3 class */
+
+
 .project3 img{
 
 width: 300px;
    max-height: 250px;
 object-fit: cover;
  padding-top: 100px;
+ padding-bottom: 80px;
 }
+
 
 
 .project3 p{
@@ -140,7 +159,9 @@ object-fit: cover;
     text-align: left;
     flex-direction: column;
     float: left;
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 
 
 
@@ -161,41 +182,142 @@ object-fit: cover;
     text-align: center;
     padding-bottom: 100px;
     margin-top:  0;
-    padding-bottom: 100px;
     padding-right: 100px;
-
-    position: absolute;
+     position: absolute;
 }
 
 h3{
 
-    font-size: 30px;
+    font-size: 55px;
 padding-top: 50px;
 text-align: center;
 }
 
+
+/* style for my elements in my Reviews class */
+
 .Reviews h2{
-    padding-top: 50px;
+    padding-top: 100px;
 text-align: center;
 text-decoration: underline;
+font-size: 45pt;
 }
 .John {
-border: 20px solid #5f634f;
+
+padding: 75px;
 padding-bottom: 100px;
 margin-bottom: 100px;
+border: 5px solid #5f634f;
 
 }
 
 .Jane {
-border: 20px solid #5f634f;
+
+padding: 75px;
 padding-bottom: 100px;
 margin-bottom: 100px;
+border: 5px solid #5f634f;
 
 }
 
 .Billy {
-border: 20px solid #5f634f;
+padding: 75px;
 padding-bottom: 100px;
 margin-bottom: 100px;
+border: 5px solid #5f634f;
 
+
+}
+/* Basic footer style */
+footer {
+
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 60pt;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    background-color: #9bc4cb;
+}
+/* style for tablet devices  */
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 32pt;
+    }
+     h2 {
+        font-size: 32pt;
+    }
+
+    p {
+        font-size: 18pt;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* style for Phone devices */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28pt;
+    }
+
+    h2 {
+        font-size: 22pt;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16pt;
+        padding:  10px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project1 img,
+    .project2 img,
+    .project3 img,
+    .border img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        float: top;
+        margin: 0 0 20px 0;
+
+    }
+
+    .project2 h2,
+    .project3 h2 {
+        position: static;
+        padding: 10px ;
+        text-align: center;
+
+    }
+
+    .John,
+    .Jane,
+    .Billy {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+
+    .border,
+    .border2 {
+        padding: 15px;
+    }
 }
