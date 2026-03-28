@@ -271,7 +271,8 @@ footer {
 @media (max-width: 768px) {
 
     h1 {
-        font-size: 28pt;
+        font-size: 23pt;
+        padding:  5px;
     }
 
     h2 {
