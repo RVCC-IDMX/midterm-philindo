@@ -30,7 +30,7 @@ p{
 /* Here i added my first image and started to assing style to my first class some more style  */
 .border img{
   display: block;
-  margin: 0 auto
+  margin: 0 auto;
 }
 .border {
     border: 20px solid rgb(63, 60, 60);
@@ -50,7 +50,7 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30pt;
     color:black;
-    text-align: left;
+    text-align: center;
     padding-bottom: 30px;
 }
 /* style for elements in my Border 2 class */
@@ -68,12 +68,14 @@ h2 {
 
 }
 /* style for elements in my project1 class */
-.project1 img{
+.border2 img{
 
-width: 300px;
-   max-height: 250px;
+display: block;
+  width: 500px;
+   max-height: 350px;
 object-fit: cover;
-padding-bottom: 70px;
+margin: 0 auto;
+padding-bottom: 30px;
 }
 
 
@@ -81,7 +83,9 @@ padding-bottom: 70px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23pt;
     color:black;
-    text-align: left;
+    text-align: center;
+     padding-bottom: 40px;
+
 
 
 
@@ -94,24 +98,17 @@ padding-bottom: 70px;
 
 /* style for my elements in my project2 class */
 
-.project2 img{
 
-width: 300px;
-   max-height: 250px;
-object-fit: cover;
- padding-top: 100px;
- padding-bottom: 100px;
-}
 
 
 .project2 p{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23pt;
     color:black;
-    text-align: left;
+    text-align: center;
     flex-direction: column;
-    float: left;
-    padding-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 
 
 
@@ -126,17 +123,9 @@ object-fit: cover;
 
 }
 
-.project2 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30pt;
-    color:black;
-    text-align: left;
-    padding-bottom: 100px;
-    margin-top:  0;
 
 
-    position: absolute;
-}
+
 
 /* style for my elements in my project3 class */
 
@@ -156,10 +145,10 @@ object-fit: cover;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23pt;
     color:black;
-    text-align: left;
+    text-align: center;
     flex-direction: column;
-    float: left;
-    padding-top: 100px;
+
+    padding-top: 30px;
     padding-bottom: 100px;
 
 
@@ -291,7 +280,7 @@ footer {
         align-items: center;
     }
 
-    .project1 img,
+    .border2 img,
     .project2 img,
     .project3 img,
     .border img {
