@@ -29,13 +29,8 @@ p{
 }
 /* Here i added my first image and started to assing style to my first class some more style  */
 .border img{
-   float: left ;
-width: 300px;
-margin-right: 25px;
-   margin-bottom: 10px;
-   max-width: 300px;
-   height: auto;
-   background-color: #e2fadb;
+  display: block;
+  margin: 0 auto
 }
 .border {
     border: 20px solid rgb(63, 60, 60);
